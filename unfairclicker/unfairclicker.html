@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Unfair Idle Game</title>
+  <link href="unfairclickerstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div>
+    <button onclick="spin()">Spin<br><span id="countdown">5</span></button>
+  </div>
+
+  <div class="stats">
+    
+    <div>
+      <hr>
+      <p>Suck Up Points From Spin: <span id="spointout">0</span></p>
+      <p>Prestige Multi: <span id="premult">1</span></p>
+      <p>Suck Up Points: <span id="spointtot">0</span></p>
+        <p><span id="scold">0</span></p>
+      <hr>
+      <p>Click Rule: <span id="clickRule"></span></p>
+      <p>Don't Click <input type="checkbox" checked id="" onclick="return false";></p>
+      <p>2x Speed <input type="checkbox" checked onclick="return false";></p>
+      <p>Hold Space While Clicking <input type="checkbox" checked onclick="return false";></p>
+      <p>The Rules Are Lying! <input type="checkbox" checked onclick="return false";></p>
+      <hr>
+  </div>
+  <script src="unfairclickerscript.js"></script>
+</body>
+
+</html>

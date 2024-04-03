@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: red;
+    border-style: inset;
+    border-block-color: black;
+    padding: 2%;
+    position: fixed;
+    text-align: center;
+    box-shadow: 10px 10px 0px 0px black;
+}
+
+.stats {
+    position: fixed;
+    top: 350px;
+    left: 10px;
+}
