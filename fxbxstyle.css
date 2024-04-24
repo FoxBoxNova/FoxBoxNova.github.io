@@ -1,3 +1,55 @@
 body {
-    color: red;
+    color:indigo;
+    background-color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section {
+    background-color:mediumpurple;
+    padding: 25px;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+.sub {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+a {
+    color: inherit;
+}
+div {
+    background-color: lavender;
+    padding: 25px;
+    padding-top:0px;
+    border-radius: 5px;
+}
+h3 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: 0px 3px 2px fuchsia;
+}
+ul {
+    display: flexbox;
+    text-align: center;
+}
+.navbutton {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button {
+    font-weight: 900;
+    color:fuchsia;
+    border-radius: 5%;
+    background-color: indigo;
+    border-color: blueviolet;
+    box-shadow: 0px 4px 2px fuchsia;
+}
+.para {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: ;
 }

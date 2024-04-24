@@ -1,6 +1,6 @@
 spoint = 0;
 presmulti = 1;
-let count = 5;
+let count = 20;
 setInterval(function () {
     document.getElementById("countdown").innerHTML = count--;
     if (count == -2) {
@@ -13,7 +13,7 @@ setInterval(function () {
 }, 1000);
 
 function spin() {
-    count = 5
+    count = 20
 
     ranButtonColor = Math.floor(Math.random() * 16777215).toString(16);
     randomPos1 = Math.floor(Math.random() * 100);
@@ -41,11 +41,12 @@ function spin() {
 
     document.getElementById("spointout").innerHTML = rand1;
 
-    if (spoint > 100 * presmulti * 0.9) {
+    if (spoint > 10 * presmulti * 0.9) {
         spoint = 0;
         presmulti += 1;
+        speed -= 500;
     }
-    if (rand1 == 1) {
+    if (rand1 == -1) {
         document.querySelector("button").style.display = "none";
 
         setTimeout(function () {

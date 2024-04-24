@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="fxbxstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section>
+        <h3>Contact</h3>
+        <ul style="list-style: none;">
+            <button><a href="index.html">
+                    <li class="navbutton">HOME</li>
+                </a></button>
+            <button><a href="games.html">
+                    <li class="navbutton">GAMES</li>
+                </a></button>
+            <button><a href="news.html">
+                    <li class="navbutton">NEWS</li>
+                </a></button>
+            <button><a href="about.html">
+                    <li class="navbutton">ABOUT</li>
+                </a></button>
+            <button><a href="contact.html">
+                    <li class="navbutton">CONTACT</li>
+                </a></button>
+            <button><a href="change.html">
+                    <li class="navbutton">CHANGE LOG</li>
+                </a></button>
+        </ul>
+    </section>
+    <section>
+        <h3 class="sub" id="bug">Have an issue or suggestion?</h3>
+        <div>
+            <form action="fbcontactfrm.js">
+                <label for="bugreport">Bug Report</label>
+                <input type="checkbox" id="bugreport" name="bugclick" onclick="bugpage()">
+                <div id="bugform" style="display: none;">
+                    <label>s</label>
+                    <input type="textarea">
+                </div>
+                <input type="email" placeholder="email" required><br>
+            </form>
+            <script>
+                function bugpage() {
+                    var checkBox = document.getElementById("bugreport");
+                    var bugform = document.getElementById("bugform");
+                    if (checkBox.checked == true) {
+                        bugform.style.display = "block";
+                    } else {
+                        bugform.style.display = "none";
+                    }
+                }
+            </script>
+        </div>
+    </section>
+</body>
+
+</html>
