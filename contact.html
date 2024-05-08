@@ -39,10 +39,13 @@
                 <label for="bugreport">Bug Report</label>
                 <input type="checkbox" id="bugreport" name="bugclick" onclick="bugpage()">
                 <div id="bugform" style="display: none;">
-                    <label>s</label>
-                    <input type="textarea">
+                    <label>Please Describe Your Issue</label>
+                    <textarea rows="0"></textarea>
+                    <label>Please Provide Any Images or Videos of Your Issue</label>
+                    <input type="file" accept="image/png, image/jpg, image/jpeg, video/mp4, video/webm, video/mov">
                 </div>
                 <input type="email" placeholder="email" required><br>
+                <input type="submit" required>
             </form>
             <script>
                 function bugpage() {

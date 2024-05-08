@@ -1,25 +1,25 @@
 body {
 
     background-position: center center;
+    background-attachment: fixed;
     background-repeat: repeat;
     background-size: cover;
     background-image: url(Gemini_Generated_Image_es0lxres0lxres0l.jpg);
     color:indigo;
-    animation: warp 20s infinite alternate;
-    background-color: darkmagenta;
-    background-blend-mode:burn;
+    animation: warp 2s infinite alternate;
+    background-blend-mode: multiply;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 @keyframes warp {
     0% {
-      background-color: blue;
+      background-color:rgb(89, 0, 89)
     }
     100% {
-      background-color: red;
+        background-color:rgb(46, 0, 46);
     }
 }
 section {
-    background-color:mediumpurple;
+    background-color:#9370d8;
     padding: 25px;
     padding-top: 3px;
     border-radius: 5px;
